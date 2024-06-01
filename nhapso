@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" placeholder=" nhập số nào đó" id="x">
+    <button onclick="check()">check</button>
+    <script>
+        function check() {
+            document.getElementById("x").value;
+            let numbers = [1, 7, 5, 9, 2, 6, 7, 9, 7];
+            let count = 0;
+            for (let i = 0; i < numbers.length; i++) {
+                if (numbers[i] === x) {
+                    count++
+                } document.write(" phần tử" + x + "xuất hiện" + count + "lần")
+            }
+        }
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
